@@ -1,0 +1,17 @@
+{
+  "name": "openai-sdk-with-ts",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.3.4",
+    "dotenv": "^17.2.3",
+    "zod": "3"
+  }
+}
